@@ -1,0 +1,26 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'Space Mono';
+  text-align: center;
+  font-size: max(6vmax, 2rem);
+  line-height: max(6vmax, 2rem);
+  margin: 0;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-size: max(8vmax, 5rem);
+  padding-bottom: 10px;
+}
